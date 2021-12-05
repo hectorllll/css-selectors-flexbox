@@ -3,3 +3,54 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: chocolate;*/
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    flex-basis: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.green-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article{
+    flex-basis: 350px;
+    flex-grow: 1;
+
+}
+
+
